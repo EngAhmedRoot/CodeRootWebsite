@@ -1,0 +1,508 @@
+<!doctype html>
+<!-- Visual direction: مختبر الجذور الحية — premium biophilic technology with white space, Root Green, and Cobalt Blue. -->
+<html lang="ar" dir="rtl" data-page-language="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+    <meta name="theme-color" content="#FFFFFF" />
+    <meta name="description" content="Code Root Academy — مسارات تقنية عملية تبدأ من مستوى طفلك الحقيقي." />
+    <title>Code Root Academy | نبدأ من الجذر</title>
+    <link rel="icon" type="image/png" href="/manus-storage/coderoot-root-mark_22e77952.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@400;500;600;700;800&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+  <body class="page-gallery" id="pageTop">
+    <div class="page-shell">
+      <header class="site-header" id="siteHeader">
+        <div class="nav-shell">
+          <a class="brand" href="index.ar.html" aria-label="Code Root Academy">
+            <span class="brand-mark">
+              <svg class="brand-fallback" viewBox="0 0 48 48" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+                <path d="M24 38V24M24 24 13 15M24 24l11-9M24 30l-9 7" fill="none" stroke="#094BDB" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <circle cx="13" cy="14" r="5.5" fill="#138C28"/><circle cx="35" cy="14" r="5.5" fill="#138C28"/><circle cx="14" cy="38" r="5.5" fill="#138C28"/>
+                <circle cx="24" cy="23" r="5" fill="#fff" stroke="#094BDB" stroke-width="3"/>
+              </svg>
+              <img src="/manus-storage/coderoot-root-mark_22e77952.png" alt="" onerror="this.remove()" />
+            </span>
+            <span class="brand-lockup" aria-label="Code Root Academy">
+              <strong>code<span>root</span></strong>
+              <small data-i18n="academy">ACADEMY</small>
+            </span>
+          </a>
+
+          <nav class="desktop-nav" aria-label="التنقل الرئيسي">
+            <a href="index.ar.html" data-i18n="home">الرئيسية</a>
+            <a href="paths.ar.html" data-i18n="paths">المسارات التعليمية</a>
+            <a href="plans.ar.html" data-i18n="plans">أنظمة الدراسة</a>
+            <a href="booking.ar.html" data-i18n="how">كيف نبدأ؟</a>
+            <a href="why.ar.html" data-i18n="why">لماذا Code Root؟</a>
+            <a class="active" href="gallery.ar.html" data-i18n="gallery">الشهادات والمواد</a>
+            <a href="faq.ar.html" data-i18n="faq">الأسئلة الشائعة</a>
+          </nav>
+
+          <div class="header-actions">
+            <a class="language-toggle" id="languageToggle" href="../en/index.en.html" aria-label="Switch to English">
+              <span class="globe-icon" aria-hidden="true">◎</span>
+              <span id="languageLabel">EN</span>
+            </a>
+            <button class="theme-toggle" id="themeToggle" type="button" aria-label="تفعيل الوضع الداكن" aria-pressed="false"><span class="theme-sun" aria-hidden="true">☀</span><span class="theme-moon" aria-hidden="true">◐</span></button>
+            <a class="nav-cta" href="booking.ar.html">
+              <span data-i18n="headerCta">احجز جلسة مجانية</span>
+              <span class="arrow-icon" aria-hidden="true">↗</span>
+            </a>
+            <button class="menu-toggle" id="menuToggle" type="button" aria-expanded="false" aria-controls="mobileMenu" aria-label="فتح القائمة">
+              <span></span><span></span><span></span>
+            </button>
+          </div>
+        </div>
+
+        <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+          <nav aria-label="التنقل على الهاتف">
+            <a href="index.ar.html" data-mobile-link data-i18n="home">الرئيسية</a>
+            <a href="paths.ar.html" data-mobile-link data-i18n="paths">المسارات التعليمية</a>
+            <a href="plans.ar.html" data-mobile-link data-i18n="plans">أنظمة الدراسة</a>
+            <a href="booking.ar.html" data-mobile-link data-i18n="how">كيف نبدأ؟</a>
+            <a href="why.ar.html" data-mobile-link data-i18n="why">لماذا Code Root؟</a>
+            <a class="active" href="gallery.ar.html" data-mobile-link data-i18n="gallery">الشهادات والمواد</a>
+            <a href="faq.ar.html" data-mobile-link data-i18n="faq">الأسئلة الشائعة</a>
+          </nav>
+          <a class="mobile-cta" href="booking.ar.html" data-mobile-link>
+            <span data-i18n="headerCta">احجز جلسة مجانية</span><span aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </header>
+
+      <main>
+        <section class="hero" id="hero" aria-labelledby="heroTitle">
+          <canvas id="circuitCanvas" aria-hidden="true"></canvas>
+          <img class="hero-atmosphere" src="/manus-storage/coderoot-hero-atmosphere_c0940023.png" alt="" aria-hidden="true" />
+          <div class="grid-haze" aria-hidden="true"></div>
+          <div class="hero-orb orb-blue" aria-hidden="true"></div>
+          <div class="hero-orb orb-green" aria-hidden="true"></div>
+
+          <div class="hero-container">
+            <div class="hero-copy">
+              <div class="eyebrow hero-reveal">
+                <span class="eyebrow-dot"></span>
+                <span data-i18n="eyebrow">ابدأ رحلة طفلك مع Code Root Academy</span>
+              </div>
+              <h1 id="heroTitle" class="hero-reveal delay-1" data-i18n-html="heroTitle">لكل طفل بداية مختلفة.<br /><em>ونبني له المسار المناسب.</em></h1>
+              <p class="hero-focus-line" data-i18n="heroFocus">تعليم تقني يبدأ بفهم الطفل</p>
+              <p class="hero-description hero-reveal delay-2" data-i18n="heroDescription">في Code Root، مش بنبدأ بكورس... بنبدأ بتحديد مستوى طفلك، وبعدها بنبني له مساره التعليمي خطوة بخطوة.</p>
+              <div class="hero-actions hero-reveal delay-3">
+                <a class="primary-cta" href="booking.ar.html">
+                  <span data-i18n="primaryCta">احجز جلسة تجريبية مجانية</span>
+                  <span class="cta-icon" aria-hidden="true">↗</span>
+                </a>
+                <a class="secondary-cta" href="paths.ar.html">
+                  <span class="play-orbit" aria-hidden="true"><span>›</span></span>
+                  <span data-i18n="secondaryCta">اكتشف المسارات التعليمية</span>
+                </a>
+              </div>
+              <div class="trust-line hero-reveal delay-4" data-i18n="trust">تعليم عملي <i></i> مسارات متدرجة <i></i> متابعة مستمرة</div>
+            </div>
+
+            <div class="hero-visual hero-reveal delay-2" aria-label="طفل وروبوت يتعاونان على مسار برمجي">
+              <div class="visual-stage">
+                <div class="stage-ring ring-a" aria-hidden="true"></div>
+                <div class="stage-ring ring-b" aria-hidden="true"></div>
+                <div class="stage-grid" aria-hidden="true"></div>
+                <img class="hero-premium-3d" src="images/images/hero-child-robot-3d.webp" alt="طفل وروبوت ودودان يتعاونان على البرمجة أمام حاسوب" />
+                <div class="editable-character-stage" aria-label="مشهد طفل وروبوت؛ استبدل ملفات child-editable.svg وrobot-editable.svg من مجلد images لتغيير الصور">
+                  <img class="editable-child" src="images/images/child-editable.svg" alt="طفل يتعلم البرمجة" />
+                  <img class="editable-robot" src="images/images/robot-editable.svg" alt="روبوت مساعد للتعلّم" />
+                </div>
+                <div class="learning-rail" aria-hidden="true">
+                  <span class="rail-line"></span>
+                  <div class="rail-stop stop-assess"><b>01</b><small>تقييم</small></div>
+                  <div class="rail-stop stop-path"><b>02</b><small>مسار</small></div>
+                  <div class="rail-stop stop-practice"><b>03</b><small>ممارسة</small></div>
+                  <div class="rail-stop stop-follow"><b>04</b><small>متابعة</small></div>
+                </div>
+                <img class="learning-orbit" src="/manus-storage/coderoot-learning-orbit_f52bcdb3.png" alt="" aria-hidden="true" />
+                <img class="skill-sphere" src="/manus-storage/coderoot-skill-sphere_6285f5c0.png" alt="" aria-hidden="true" />
+
+                <div class="floating-card card-code" aria-hidden="true"><span>&lt;/&gt;</span><small>CODE</small></div>
+                <div class="floating-card card-ai" aria-hidden="true"><span>✦</span><small>AI</small></div>
+                <div class="floating-card card-design" aria-hidden="true"><span class="palette-dots"><b></b><b></b><b></b></span><small>DESIGN</small></div>
+
+                <svg class="hero-scene" viewBox="0 0 720 620" role="img" aria-labelledby="sceneTitle sceneDesc" xmlns="http://www.w3.org/2000/svg">
+                  <title id="sceneTitle">طفل وروبوت يتعاونان أمام حاسوب</title>
+                  <desc id="sceneDesc">مشهد ثلاثي الأبعاد بأسلوب راقٍ لطفل وروبوت متوازنين بصريًا يعملان على البرمجة والذكاء الاصطناعي.</desc>
+                  <defs>
+                    <linearGradient id="blueGrad" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#2C7BFF"/><stop offset="1" stop-color="#094BDB"/></linearGradient>
+                    <linearGradient id="greenGrad" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#4BC863"/><stop offset="1" stop-color="#138C28"/></linearGradient>
+                    <linearGradient id="skinGrad" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F9C79E"/><stop offset="1" stop-color="#E49A6D"/></linearGradient>
+                    <linearGradient id="hoodieGrad" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#7F66CE"/><stop offset="1" stop-color="#5537A9"/></linearGradient>
+                    <linearGradient id="robotShell" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFFFFF"/><stop offset=".55" stop-color="#E8F3FF"/><stop offset="1" stop-color="#BDD5F8"/></linearGradient>
+                    <linearGradient id="screenGrad" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#153E86"/><stop offset="1" stop-color="#071D54"/></linearGradient>
+                    <filter id="sceneShadow" x="-20%" y="-20%" width="150%" height="150%"><feDropShadow dx="0" dy="14" stdDeviation="10" flood-color="#094BDB" flood-opacity=".17"/></filter>
+                    <filter id="softShadow" x="-20%" y="-20%" width="150%" height="150%"><feDropShadow dx="0" dy="8" stdDeviation="7" flood-color="#130D14" flood-opacity=".13"/></filter>
+                    <pattern id="microGrid" width="18" height="18" patternUnits="userSpaceOnUse"><path d="M 18 0 L 0 0 0 18" fill="none" stroke="#094BDB" stroke-width=".9" opacity=".13"/></pattern>
+                  </defs>
+
+                  <ellipse cx="367" cy="546" rx="270" ry="39" fill="#D7E8E4" opacity=".62"/>
+                  <ellipse cx="367" cy="541" rx="234" ry="25" fill="#EAF5F3"/>
+
+                  <g opacity=".7" fill="none" stroke="#138C28" stroke-width="2.5" stroke-linecap="round">
+                    <path d="M100 452H58v-74h40"/><circle cx="98" cy="378" r="5" fill="#F1AC0A" stroke="none"/>
+                    <path d="M625 466h41v-64h-25"/><circle cx="641" cy="402" r="5" fill="#7155BB" stroke="none"/>
+                    <path d="M120 492h-28v34h44"/><circle cx="137" cy="526" r="4" fill="#094BDB" stroke="none"/>
+                  </g>
+
+                  <g filter="url(#softShadow)">
+                    <path d="M232 487h272l52 44H184z" fill="#D8E5EF"/>
+                    <path d="M233 485h270l53 43H184z" fill="url(#blueGrad)"/>
+                    <path d="M252 495h226l22 19H226z" fill="#0B2766" opacity=".68"/>
+                    <path d="M233 485h270l-25-15H257z" fill="#F7FBFF"/>
+                  </g>
+
+                  <g class="laptop" filter="url(#sceneShadow)">
+                    <path d="M270 350h197c9 0 15 6 15 15v118H255V365c0-9 6-15 15-15Z" fill="#D7E3F0"/>
+                    <path d="M278 358h182c7 0 12 5 12 12v98H266v-98c0-7 5-12 12-12Z" fill="url(#screenGrad)"/>
+                    <rect x="277" y="369" width="184" height="88" rx="5" fill="url(#microGrid)"/>
+                    <path d="M294 391h48" stroke="#4ED666" stroke-width="6" stroke-linecap="round"/>
+                    <path d="M294 407h83" stroke="#83AFFF" stroke-width="5" stroke-linecap="round"/>
+                    <path d="M294 423h60" stroke="#7155BB" stroke-width="5" stroke-linecap="round"/>
+                    <path d="M394 392l14 13-14 13M428 392l-14 13 14 13" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                    <rect x="266" y="468" width="206" height="7" rx="3.5" fill="#AFC7DD"/>
+                    <path d="M250 483h237l32 21H216z" fill="#FFFFFF"/>
+                    <path d="M250 483h237l32 21H216z" fill="url(#robotShell)"/>
+                    <path d="M320 489h99l9 8h-117z" fill="#B4C9D8"/>
+                  </g>
+
+                  <g class="collaboration-halo" opacity=".82">
+                    <path d="M285 488c36-76 121-112 198-79 43 18 64 57 59 105H242c3-9 18-17 43-26Z" fill="#EAF5FF"/>
+                    <path d="M300 479c43-47 121-65 178-32" fill="none" stroke="#8BC1FF" stroke-width="2" stroke-linecap="round" stroke-dasharray="5 8"/>
+                    <circle cx="385" cy="445" r="31" fill="#FFFFFF" opacity=".84"/>
+                    <circle cx="385" cy="445" r="23" fill="#EFF9F2" stroke="#138C28" stroke-width="1.5"/>
+                    <path d="M370 446h11l5-9 7 18 5-9h13" fill="none" stroke="#094BDB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                    <circle cx="370" cy="446" r="3.5" fill="#138C28"/><circle cx="411" cy="446" r="3.5" fill="#F1AC0A"/>
+                  </g>
+
+                  <g class="child" filter="url(#sceneShadow)" transform="translate(13 -33) scale(1.06)">
+                    <path d="M151 461c10-17 29-27 51-27h46c25 0 46 16 54 40l16 51H135z" fill="url(#hoodieGrad)"/>
+                    <path d="M173 446c14 12 42 20 74 0l14 25c-28 22-66 19-102-1z" fill="#FFFFFF" opacity=".18"/>
+                    <path d="M142 512h83l-24 42h-83z" fill="#26335C"/>
+                    <path d="M222 512h81l26 42h-87z" fill="#213152"/>
+                    <path d="M129 547h80c5 0 8 3 8 7H116c1-5 6-7 13-7Z" fill="#FFFFFF"/>
+                    <path d="M247 547h85c8 0 12 3 13 7H240c1-4 3-7 7-7Z" fill="#FFFFFF"/>
+                    <path d="M179 408h56v39c0 14-12 26-28 26s-28-12-28-26z" fill="url(#skinGrad)"/>
+                    <path d="M164 383c0-31 20-54 48-54 30 0 47 22 47 51v23c-5 21-23 35-47 35-28 0-48-21-48-49z" fill="url(#skinGrad)"/>
+                    <path d="M163 386c-4-23 7-51 33-58 24-7 53 2 62 31-13-7-25-12-39-12-18 0-28 8-37 22l-2 27z" fill="#261822"/>
+                    <path d="M173 377c6-24 28-36 51-30 11 3 20 8 29 18-30-6-52 3-80 25z" fill="#34202C"/>
+                    <circle cx="189" cy="393" r="3.3" fill="#130D14"/><circle cx="230" cy="393" r="3.3" fill="#130D14"/>
+                    <path d="M198 414c7 5 15 5 22 0" fill="none" stroke="#BB6E57" stroke-width="3" stroke-linecap="round"/>
+                    <path d="M171 442c11 10 22 13 36 13s28-4 43-14" fill="none" stroke="#FFFFFF" stroke-width="4" opacity=".8"/>
+                    <path d="M168 469c18 7 37 10 55 8" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+                    <path d="M237 471c28 7 51 8 79 20" fill="none" stroke="url(#skinGrad)" stroke-width="13" stroke-linecap="round"/>
+                    <circle cx="321" cy="492" r="8" fill="url(#skinGrad)"/>
+                  </g>
+
+                  <g class="robot" filter="url(#sceneShadow)" transform="translate(-8 11) scale(.98)">
+                    <path d="M499 456c14-32 40-49 72-49 35 0 62 21 76 55l12 38H482z" fill="url(#robotShell)"/>
+                    <path d="M493 464c21 18 46 26 75 26 30 0 55-9 77-26" fill="none" stroke="#B7D4F9" stroke-width="8" stroke-linecap="round"/>
+                    <path d="M492 500h73l-15 54h-80z" fill="#E7F5FF"/>
+                    <path d="M565 500h71l23 54h-85z" fill="#D5EBFF"/>
+                    <path d="M476 547h78c6 0 10 3 11 7h-101c2-5 6-7 12-7Z" fill="#FFFFFF"/>
+                    <path d="M585 547h83c7 0 12 3 13 7H574c1-4 5-7 11-7Z" fill="#FFFFFF"/>
+                    <rect x="501" y="324" width="142" height="107" rx="47" fill="url(#robotShell)"/>
+                    <rect x="510" y="335" width="124" height="81" rx="38" fill="#103879"/>
+                    <path d="M527 374c0-17 14-28 30-28s29 11 29 28c0 15-12 26-29 26s-30-11-30-26Z" fill="#071D54"/>
+                    <path d="M589 374c0-17 13-28 29-28s30 11 30 28c0 15-13 26-30 26s-29-11-29-26Z" fill="#071D54"/>
+                    <ellipse cx="559" cy="373" rx="11" ry="14" fill="#70E1FF"/>
+                    <ellipse cx="611" cy="373" rx="11" ry="14" fill="#70E1FF"/>
+                    <circle cx="562" cy="369" r="3" fill="#FFFFFF"/><circle cx="614" cy="369" r="3" fill="#FFFFFF"/>
+                    <path d="M559 402c12 7 25 7 37 0" fill="none" stroke="#4DE46C" stroke-width="4" stroke-linecap="round"/>
+                    <path d="M567 324v-23" stroke="#B5D7FF" stroke-width="8" stroke-linecap="round"/>
+                    <circle cx="567" cy="292" r="13" fill="url(#greenGrad)"/><circle cx="567" cy="292" r="5" fill="#FFFFFF"/>
+                    <path d="M503 444c-30 11-56 24-84 45" fill="none" stroke="#D2E9FF" stroke-width="17" stroke-linecap="round"/>
+                    <path d="M640 444c20 11 31 29 37 47" fill="none" stroke="#C2E0FF" stroke-width="17" stroke-linecap="round"/>
+                    <path d="M437 489l-24 6" stroke="#FFFFFF" stroke-width="13" stroke-linecap="round"/>
+                    <path d="M670 494l25 9" stroke="#FFFFFF" stroke-width="13" stroke-linecap="round"/>
+                    <rect x="541" y="447" width="52" height="31" rx="15" fill="#0A4FCD"/>
+                    <path d="M555 462h24" stroke="#70E1FF" stroke-width="4" stroke-linecap="round"/>
+                  </g>
+
+                  <g class="shared-workflow" filter="url(#softShadow)">
+                    <path d="M353 489c9 4 16 7 23 8 7-1 14-4 21-1" fill="none" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round"/>
+                    <path d="M353 489c9 4 16 7 23 8 7-1 14-4 21-1" fill="none" stroke="#138C28" stroke-width="3" stroke-linecap="round" stroke-dasharray="2 6"/>
+                    <circle cx="353" cy="489" r="7" fill="#F9C79E"/><circle cx="397" cy="496" r="7" fill="#FFFFFF" stroke="#B8D9FF" stroke-width="2"/>
+                    <circle cx="376" cy="497" r="11" fill="#FFFFFF" stroke="#094BDB" stroke-width="3"/>
+                    <path d="M372 497h8M376 493v8" stroke="#138C28" stroke-width="2.5" stroke-linecap="round"/>
+                  </g>
+
+                  <g class="sparkles" fill="#F1AC0A">
+                    <path d="M456 278l4 10 10 4-10 4-4 10-4-10-10-4 10-4z"/>
+                    <path d="M677 343l3 8 8 3-8 3-3 8-3-8-8-3 8-3z" fill="#7155BB"/>
+                    <circle cx="126" cy="311" r="7" fill="#138C28"/>
+                    <circle cx="336" cy="274" r="5" fill="#094BDB"/>
+                  </g>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="journey-section" id="start" aria-labelledby="journeyTitle">
+          <div class="journey-noise" aria-hidden="true"></div>
+          <div class="journey-container">
+            <div class="journey-intro">
+              <h2 id="journeyTitle">كل خطوة تتبني على<br /><em>الخطوة اللي قبلها.</em></h2>
+              <div class="journey-proof"><span class="proof-icon">✓</span><span>خطة واضحة من أول جلسة</span></div>
+            </div>
+
+            <div class="journey-map" aria-label="مراحل رحلة التعلّم">
+              <div class="journey-orbit orbit-one" aria-hidden="true"></div>
+              <div class="journey-orbit orbit-two" aria-hidden="true"></div>
+              <div class="journey-path" aria-hidden="true"><span></span></div>
+              <ol class="journey-steps">
+                <li class="journey-step step-assess">
+                  <span class="step-number">01</span>
+                  <h3>تحديد المستوى</h3><p>نكتشف نقطة الانطلاق المناسبة.</p>
+                </li>
+                <li class="journey-step step-route">
+                  <span class="step-number">02</span>
+                  <h3>اختيار المسار</h3><p>نحدد المهارة التي تناسبه الآن.</p>
+                </li>
+                <li class="journey-step step-learn">
+                  <span class="step-number">03</span>
+                  <h3>التعلّم العملي</h3><p>تطبيق حقيقي في كل درس.</p>
+                </li>
+                <li class="journey-step step-projects">
+                  <span class="step-number">04</span>
+                  <h3>المشاريع</h3><p>يحوّل المعرفة إلى شيء ملموس.</p>
+                </li>
+                <li class="journey-step step-grow">
+                  <span class="step-number">05</span>
+                  <h3>التطوّر</h3><p>متابعة تقيس تقدّمه مع الوقت.</p>
+                </li>
+              </ol>
+              <div class="journey-core" aria-hidden="true"><span>+</span><small>CODE ROOT</small></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="paths-section parallel-paths-section" id="paths" aria-labelledby="pathsTitle">
+          <div class="parallel-paths-container">
+            <div class="parallel-paths-heading"><div class="paths-heading-main"><div class="section-kicker section-kicker-blue paths-main-kicker"><span class="kicker-mark">02</span><span>🧭 المسارات التعليمية</span></div></div><div class="parallel-growth-key"><span></span><b>مهارات متوازية</b><i></i><b>مشروعات عملية</b><i></i><b>تطوّر متدرّج</b></div></div>
+            <div class="parallel-paths-list">
+              <article class="parallel-path-card junior-path">
+                <div class="parallel-path-rail" aria-hidden="true"><span>01</span><i></i><i></i></div>
+                <div class="parallel-path-title"><div class="parallel-path-icon">👨‍💻</div><div><p>مسار البداية</p><h3>مسار المبرمج الصغير</h3><span class="levels-badge">2 مستويات</span></div></div>
+                <div class="parallel-skills"><p>في هذا المسار يتعلم الطالب بالتوازي:</p><ul><li>🧠 <b>التفكير المنطقي</b><span>يحلّل المشكلات ويحوّلها إلى خطوات صغيرة قابلة للحل.</span></li><li>⚡ <b>أساسيات الكهرباء</b><span>يفهم التيار والدوائر وقواعد الأمان بطريقة عملية مبسطة.</span></li><li>🔌 <b>الإلكترونيات</b><span>يتعرف على الحساسات والمكوّنات وكيف تعمل الأجهزة من الداخل.</span></li><li>🧩 <b>Scratch والبرمجة</b><span>يصمم ألعابًا وقصصًا تفاعلية بالأوامر والشروط والتكرار.</span></li><li>🤖 <b>الذكاء الاصطناعي</b><span>يفهم فكرة AI ويجرب أدواته بشكل مسؤول وعملي.</span></li><li>🎨 <b>التصميم</b><span>يوظف الألوان والتكوين لتصميم واجهات وشخصيات لمشروعاته.</span></li></ul><div class="junior-path-note"><strong>أساس قوي من أول مسار</strong><span>تفكير منطقي، ألعاب Scratch، تطبيقات AI بسيطة، دوائر وأجهزة، وتصميم يخدم مشروعات الطفل.</span></div></div>
+              </article>
+              <article class="parallel-path-card advanced-path">
+                <div class="parallel-path-rail" aria-hidden="true"><span>02</span><i></i><i></i><i></i></div>
+                <div class="parallel-path-title"><div class="parallel-path-icon">💻</div><div><p>مسار التوسع</p><h3>مسار المبرمج المتقدم</h3><span class="levels-badge">3 مستويات</span></div></div>
+                <div class="parallel-skills"><p>في هذا المسار يتعلم الطالب بالتوازي:</p><ul><li>🧠 <b>التفكير المنطقي</b><span>يبني خوارزميات واضحة ويقارن بين أكثر من حل للمشكلة.</span></li><li>⚡ <b>أساسيات الكهرباء</b><span>يفهم علاقة الكهرباء بالطاقة والأجهزة التي يستخدمها يوميًا.</span></li><li>🔌 <b>الإلكترونيات</b><span>يركب دوائر أولية ويفهم دور المكوّنات والحساسات.</span></li><li>🌐 <b>HTML + CSS + jQuery</b><span>ينشئ مواقع منظمة ويضيف لها تصميمًا وتفاعلًا حقيقيًا.</span></li><li>🤖 <b>الذكاء الاصطناعي</b><span>يستخدم أدوات AI بوعي ويحوّلها إلى تطبيقات مفيدة.</span></li><li>🎨 <b>التصميم</b><span>يبني واجهات واضحة تجمع بين الجمال وسهولة الاستخدام.</span></li></ul></div>
+              </article>
+              <article class="parallel-path-card pro-path">
+                <div class="parallel-path-rail" aria-hidden="true"><span>03</span><i></i><i></i><i></i></div>
+                <div class="parallel-path-title"><div class="parallel-path-icon">🚀</div><div><p>مسار التمكّن</p><h3>مسار المبرمج المحترف</h3><span class="levels-badge">3 مستويات</span></div></div>
+                <div class="parallel-skills"><p>في هذا المسار يتعلم الطالب بالتوازي:</p><ul><li>🧠 <b>التفكير المنطقي</b><span>يحلل المشكلات المركبة ويخطط للحل قبل كتابة الكود.</span></li><li>⚡ <b>أساسيات الكهرباء</b><span>يربط المفاهيم الكهربائية بتطبيقات واقعية ومشروعات ذكية.</span></li><li>🔌 <b>الإلكترونيات</b><span>يفهم مكونات الدوائر ويستخدمها في نماذج تقنية تفاعلية.</span></li><li>🐍 <b>Python</b><span>يكتب برامج Python ويتعامل مع المنطق والبيانات والمشروعات.</span></li><li>🤖 <b>الذكاء الاصطناعي</b><span>يبني تجارب AI أعمق ويفهم استخداماتها وحدودها.</span></li><li>🎨 <b>التصميم</b><span>يقدم مشروعاته بواجهة متكاملة وهوية بصرية مدروسة.</span></li></ul></div>
+              </article>
+            </div>
+            <div class="parallel-idea"><span class="idea-node">💡</span><div><strong>الفكرة الأساسية</strong><p>مش بنعلّم الطفل مادة واحدة وننتقل للي بعدها. بنبني مهاراته مع بعض وبالتوازي، بحيث البرمجة والـAlgorithm والـElectronics والـAI والـDesign يكملوا بعض، والطالب يقدر يوظف المهارات دي معًا في مشروعات عملية.</p></div></div>
+          </div>
+        </section>
+
+        <section class="projects-section" id="projects" aria-labelledby="projectsTitle">
+          <div class="projects-container">
+            <div class="project-artboard" aria-label="نماذج مشاريع عملية">
+              <div class="project-root-line" aria-hidden="true"></div>
+              <article class="project-window window-game">
+                <div class="window-bar"><span></span><span></span><span></span><small>GAME LAB</small></div>
+                <div class="game-stage"><span class="game-sun"></span><span class="game-hill hill-a"></span><span class="game-hill hill-b"></span><span class="game-character">★</span><span class="game-code">&lt;/&gt;</span></div>
+                <p>لعبة من فكرتي</p>
+              </article>
+              <article class="project-window window-make">
+                <div class="window-bar"><span></span><span></span><span></span><small>MAKE LAB</small></div>
+                <div class="make-stage"><span class="make-chip">◎</span><i class="make-line l1"></i><i class="make-line l2"></i><i class="make-line l3"></i><span class="make-light"></span></div>
+                <p>نموذج بيتفاعل</p>
+              </article>
+              <article class="project-window window-design">
+                <div class="window-bar"><span></span><span></span><span></span><small>DESIGN LAB</small></div>
+                <div class="design-stage"><span class="mini-tile mt1"></span><span class="mini-tile mt2"></span><span class="mini-tile mt3"></span><span class="mini-pen">✦</span></div>
+                <p>تصميم له قصتي</p>
+              </article>
+              <div class="project-orb orb-project"><span>✓</span><small>BUILD</small></div>
+            </div>
+
+            <div class="projects-copy">
+              <div class="section-kicker projects-main-kicker"><span class="kicker-mark">03</span><span>التعلّم بالمشاريع</span></div>
+              <h2 id="projectsTitle">الطفل مش بيتعلم بس...<br /><em>الطفل بيعمل.</em></h2>
+              <p>بدل ما تكون المعرفة مجرد معلومة، كل مهارة بتتحول لحاجة يقدر يجربها، يطوّرها، ويوريها بفخر.</p>
+              <div class="project-outcomes">
+                <div><span class="outcome-icon icon-idea">✦</span><p><strong>فكرة خاصة به</strong><small>يبدأ بسؤال أو فضول حقيقي.</small></p></div>
+                <div><span class="outcome-icon icon-build">↗</span><p><strong>تنفيذ بإيده</strong><small>يحوّل الفكرة لنتيجة ملموسة.</small></p></div>
+                <div><span class="outcome-icon icon-share">◌</span><p><strong>إنجاز يشاركه</strong><small>يوثّق تطوره ويحتفل به.</small></p></div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="why-section" id="why" aria-labelledby="whyTitle">
+          <div class="why-container">
+            <div class="why-heading">
+              <div class="section-kicker section-kicker-blue"><span class="kicker-mark">04</span><span>ليه Code Root مختلفة؟</span></div>
+              <h2 id="whyTitle">الفرق الحقيقي مش في الكورس.<br /><em>الفرق في طريقة بناء الطفل.</em></h2>
+              <p>بدل معلومات متفرقة، بنمشي مع طفلك في رحلة واحدة واضحة: نفهمه، نعلّمه، ونشوفه يطبّق بنفسه.</p>
+            </div>
+            <div class="why-pillars why-simple-steps" aria-label="كيف تصنع Code Root الفرق">
+              <article class="why-pillar pillar-assess"><span class="pillar-number">01</span><h3>نفهم طفلك أولًا</h3><p>نحدد مستواه واهتماماته قبل اقتراح المسار المناسب له.</p></article>
+              <article class="why-pillar pillar-practice"><span class="pillar-number">02</span><h3>يتعلّم مهارات مترابطة</h3><p>برمجة وذكاء اصطناعي وتصميم وتفكير في مسار واحد واضح.</p></article>
+              <article class="why-pillar pillar-grow"><span class="pillar-number">03</span><h3>يخرج بنتيجة يفتخر بها</h3><p>مشروع عملي يوضح ما تعلّمه ويعزز ثقته بنفسه.</p></article>
+            </div>
+            <div class="academy-online-note"><span>⌁</span><div><strong>تعليم أونلاين منظّم وواضح.</strong><p>سيشن مباشر وعملي، مع تطبيق ومتابعة مستمرة من أي مكان.</p></div></div>
+            <aside class="free-whatsapp-group" aria-labelledby="freeGroupTitle">
+              <div class="free-group-heading"><span class="free-group-gift">🎁</span><div><p>مفاجأة من أكاديمية Code Root</p><h2 id="freeGroupTitle">جروب واتساب تعليمي مجاني</h2><small>مشاركة المعرفة للأطفال والشباب</small></div></div>
+              <div class="free-group-content"><p>مساحة مجانية تقدّمها الأكاديمية للأطفال والشباب لمتابعة المعرفة والتكنولوجيا بشكل مفيد ومنظّم.</p><ul><li>منح تعليمية مجانية للأطفال والشباب.</li><li>كورسات تكنولوجية تعليمية مجانية.</li><li>محتوى عن البرمجة والذكاء الاصطناعي.</li><li>مواقع وأدوات تعليمية مفيدة.</li><li>أحدث الأخبار والتطورات التكنولوجية.</li><li>مسابقات وجوائز تعليمية.</li></ul><div class="free-group-faq"><strong>أسئلة سريعة عن الجروب</strong><details><summary>هل الانضمام مجاني؟</summary><p>نعم، الجروب مجاني بالكامل.</p></details><details><summary>لمن يناسب الجروب؟</summary><p>للأطفال والشباب من 5 إلى 21 سنة.</p></details><details><summary>هل يجب أن أكون طالبًا في الأكاديمية؟</summary><p>لا، يمكن للجميع الانضمام والاستفادة من المحتوى.</p></details></div><div class="free-group-footer"><span>مجاني بالكامل • مناسب من 5 إلى 21 سنة</span><div class="free-group-actions"><button class="free-group-share" type="button" data-group-share>شارك الجروب <b>↗</b></button><a href="https://chat.whatsapp.com/LXXaWR4Ib3V03b0ko9ZIo5" target="_blank" rel="noopener noreferrer">انضم إلى الجروب مجانًا <b>↗</b></a></div></div></div>
+            </aside>
+          </div>
+        </section>
+
+        <section class="parents-section" id="parents" aria-labelledby="parentsTitle">
+          <div class="parents-container">
+            <div class="parent-copy">
+              <div class="section-kicker"><span class="kicker-mark">05</span><span>لأولياء الأمور</span></div>
+              <h2 id="parentsTitle">إنت محتاج تعرف طفلك<br /><em>محتاج إيه الأول.</em></h2>
+              <p>مش كل طفل محتاج يبدأ من البرمجة، ومش كل طفل بيتعلم بنفس الطريقة. الجلسة المجانية بتساعدنا نفهم نقطة البداية قبل ما نرشّح له أي مسار.</p>
+              <div class="parent-promise"><span>✓</span><p><strong>قرار مبني على فهم</strong><small>مش مجرد اختيار كورس من قائمة.</small></p></div>
+            </div>
+            <div class="parent-lens" aria-label="خريطة لفهم احتياجات الطفل">
+              <div class="lens-grid" aria-hidden="true"></div>
+              <div class="lens-ring ring-one" aria-hidden="true"></div><div class="lens-ring ring-two" aria-hidden="true"></div>
+              <article class="lens-card card-curiosity"><span class="lens-icon">✦</span><h3>فضوله</h3><p>إيه اللي بيشده؟</p></article>
+              <article class="lens-card card-strength"><span class="lens-icon">↗</span><h3>نقطة قوته</h3><p>فين بيبان تألقه؟</p></article>
+              <article class="lens-card card-start"><span class="lens-icon">◎</span><h3>بدايته</h3><p>يبدأ منين دلوقتي؟</p></article>
+              <div class="lens-core"><span>⌕</span><small>نفهمه أولًا</small></div>
+              <div class="lens-path" aria-hidden="true"></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="booking-section" id="booking" aria-labelledby="bookingTitle">
+          <div class="booking-container">
+            <div class="booking-copy">
+              <div class="booking-intro">
+                <div class="section-kicker section-kicker-blue"><span class="kicker-mark">06</span><span>جلسة تجريبية مجانية</span></div>
+                <h2 id="bookingTitle">خلّينا نعرف البداية <em>الصح لطفلك.</em></h2>
+                <p>الجلسة التجريبية تتم عبر Google Meet. خلالها يجرّب الطفل جزءًا عمليًا، ونتعرّف على مستواه في التفكير المنطقي والبرمجة والذكاء الاصطناعي وأساسيات الكهرباء لنرشح له المجموعة الأنسب.</p>
+                <div class="booking-badges"><span>Google Meet</span><i></i><span>لابتوب وإنترنت</span><i></i><span>تقييم عملي</span></div>
+              </div>
+              <div class="booking-stage-list" aria-label="مراحل الجلسة التجريبية">
+                <article><span class="booking-stage-number">01</span><span class="booking-stage-icon">⌕</span><p><strong>حدّد الموعد</strong><small>اختر وقتًا مناسبًا لبدء الجلسة.</small></p></article>
+                <article><span class="booking-stage-number">02</span><span class="booking-stage-icon">&lt;/&gt;</span><p><strong>يجرّب الطفل</strong><small>نشاهد تفكيره وتفاعله عمليًا.</small></p></article>
+                <article><span class="booking-stage-number">03</span><span class="booking-stage-icon">↗</span><p><strong>نرشّح البداية</strong><small>نقترح المسار والمجموعة الأنسب.</small></p></article>
+              </div>
+            </div>
+            <form class="booking-form" id="bookingForm" novalidate>
+              <div class="form-heading"><strong>احجز جلستك الآن</strong><small>الحقول المعلّمة مطلوبة</small></div>
+              <div class="form-grid">
+                <label><span>اسم الطفل</span><input name="childName" type="text" placeholder="اكتب اسم الطفل" required /></label>
+                <label><span>البريد الإلكتروني للسيشن</span><input name="childEmail" type="email" placeholder="name@gmail.com" required /></label>
+                <label><span>عمر الطفل</span><select name="age" required><option value="">اختَر العمر</option><option>6 - 8 سنوات</option><option>9 - 11 سنة</option><option>12 - 14 سنة</option><option>15+ سنة</option></select></label>
+                <label><span>مستوى البرمجة</span><select name="programmingLevel" required><option value="">اختَر المستوى</option><option>مبتدئ</option><option>عنده أساسيات</option><option>خبير</option></select></label>
+                <label><span>رقم واتساب لجروب السيشن</span><input name="whatsapp" type="tel" inputmode="tel" placeholder="01X XXX XXXX" required /></label>
+                <label><span>نظام الدراسة بعد الجلسة</span><select name="studySystem" required><option value="">اختَر النظام</option><option>النظام الفردي</option><option>نظام المجموعات</option></select></label>
+              </div>
+              <div class="booking-actions"><button class="booking-submit" type="submit">احجز الجلسة المجانية <span>↗</span></button><a class="whatsapp-booking" href="https://wa.me/201553588585" target="_blank" rel="noopener noreferrer">واتساب الأكاديمية <span>↗</span></a></div>
+              <p class="form-note">جهّز اللابتوب والإنترنت قبل الجلسة. هذه النسخة لا تحفظ أو ترسل البيانات بعد.</p>
+              <div class="booking-success" id="bookingSuccess" role="status" aria-live="polite"><span>✓</span><p><strong>تم تسجيل بيانات الطفل محليًا.</strong><small>في النسخة الفعلية سيتم التواصل لتأكيد الحضور وإضافة الأسرة إلى جروب السيشن التجريبية وإرسال الرابط عند تحديد الموعد.</small></p><dl class="booking-summary" id="bookingSummary"></dl></div>
+            </form>
+          </div>
+        </section>
+
+        <section class="plans-section" id="plans" aria-labelledby="plansTitle">
+          <div class="plans-container">
+            <div class="plans-intro"><h2 id="plansTitle" class="plans-main-kicker"><span class="kicker-mark">08</span><span>نظام يناسب احتياج طفلك.</span></h2></div>
+            <div class="subscription-cards"><article class="subscription-card individual-plan"><span class="plan-tag">للتركيز الفردي</span><div class="plan-title-row"><div class="plan-icon">👤</div><h3>النظام الفردي</h3></div><p>متابعة مخصصة تناسب احتياج الطفل ومسار تعلمه.</p><div class="plan-footer"><div class="price"><b>1200</b><span>جنيه<br />شهريًا</span></div><a href="booking.ar.html">احجز جلسة تحديد المستوى <span>↗</span></a></div></article><article class="subscription-card group-plan"><span class="plan-tag">الأكثر اختيارًا</span><div class="plan-title-row"><div class="plan-icon">👥</div><h3>نظام المجموعات</h3></div><p>مجموعة صغيرة من 5 طلاب، بتفاعل وتطبيق عملي مشترك.</p><div class="plan-footer"><div class="price"><b>400</b><span>جنيه للطالب<br />شهريًا</span></div><a href="booking.ar.html">احجز جلسة تحديد المستوى <span>↗</span></a></div></article></div>
+            <div class="plans-discount"><span>✦</span><p><strong>خصم خاص للإخوات والأصدقاء</strong><small>اسألنا عنه خلال جلسة تحديد المستوى لاختيار النظام الأنسب لطفلك.</small></p></div><div class="plans-cadence plans-cadence-bottom"><article><b>جلسة أسبوعية</b><small>موعد ثابت للتعلّم والتطبيق</small></article><article><b>ساعتان للجلسة</b><small>وقت كافٍ للشرح والتجربة</small></article><article><b>4 جلسات شهريًا</b><small>إيقاع واضح طوال الشهر</small></article></div><p class="plans-explanation">اختَر النظام الفردي أو نظام المجموعات بعد جلسة تحديد المستوى، وفق احتياج الطفل وطريقة تعلّمه.</p>
+          </div>
+        </section>
+
+        <section class="faq-section" id="faq" aria-labelledby="faqTitle">
+          <div class="faq-container">
+            <div class="faq-intro">
+              <div class="section-kicker"><span class="kicker-mark">07</span><span>أسئلة أولياء الأمور</span></div>
+              <h2 id="faqTitle">القرار الصح بيبدأ<br /><em>بسؤال واضح.</em></h2>
+              <p>لو في أي سؤال عن رحلة طفلك، ده مكان بداية سريع. والجلسة المجانية موجودة عشان نجاوب على اللي يخصه هو تحديدًا.</p>
+              <a class="faq-book-link" href="booking.ar.html"><span>مش لاقي سؤالك؟</span><b>احجز جلسة مجانية ↗</b></a>
+            </div>
+            <div class="faq-list">
+              <article class="faq-item is-open">
+                <button class="faq-question" type="button" aria-expanded="true" aria-controls="faqAnswer1"><span class="faq-number">01</span><span>هل لازم يكون طفلي عنده خبرة سابقة؟</span><i aria-hidden="true">+</i></button>
+                <div class="faq-answer" id="faqAnswer1"><p>لا. بنبدأ دائمًا من المستوى الحقيقي للطفل، سواء دي أول تجربة له أو عنده أساس بسيط محتاج يطوره.</p></div>
+              </article>
+              <article class="faq-item">
+                <button class="faq-question" type="button" aria-expanded="false" aria-controls="faqAnswer2"><span class="faq-number">02</span><span>إزاي بتحددوا المسار المناسب؟</span><i aria-hidden="true">+</i></button>
+                <div class="faq-answer" id="faqAnswer2"><p>بننظر للاهتمام، وطريقة التعلّم، ونقطة البداية. الهدف مش اختيار عنوان مشهور، بل اختيار خطوة منطقية للطفل الآن.</p></div>
+              </article>
+              <article class="faq-item">
+                <button class="faq-question" type="button" aria-expanded="false" aria-controls="faqAnswer3"><span class="faq-number">03</span><span>هل هقدر أعرف طفلي بيتطور فعلًا؟</span><i aria-hidden="true">+</i></button>
+                <div class="faq-answer" id="faqAnswer3"><p>التطور بيظهر في المهارات والمشاريع التي ينفذها الطفل، وفي قدرته على التفكير واتخاذ قرارات داخل التجربة.</p></div>
+              </article>
+              <article class="faq-item">
+                <button class="faq-question" type="button" aria-expanded="false" aria-controls="faqAnswer4"><span class="faq-number">04</span><span>ولو طفلي مش متأكد هو بيحب إيه؟</span><i aria-hidden="true">+</i></button>
+                <div class="faq-answer" id="faqAnswer4"><p>ده طبيعي. الجلسة الأولى تساعدنا نكتشف أين يظهر فضوله، ثم نرشّح بداية تجعله يجرب بثقة بدل ما يختار عشوائيًا.</p></div>
+              </article>
+              <article class="faq-item">
+                <button class="faq-question" type="button" aria-expanded="false" aria-controls="faqAnswer5"><span class="faq-number">05</span><span>هل الجلسة المجانية بتلزمنا بحاجة؟</span><i aria-hidden="true">+</i></button>
+                <div class="faq-answer" id="faqAnswer5"><p>لا. هدفها هو الفهم والتوجيه، وبعدها تقدر تقرر بهدوء الخطوة المناسبة لطفلك.</p></div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="gallery-section" id="gallery" aria-labelledby="galleryTitle">
+          <div class="gallery-container">
+            <div class="gallery-heading"><div class="section-kicker section-kicker-blue"><span class="kicker-mark">07</span><span>إنجازات وموارد Code Root</span></div><h2 id="galleryTitle">شهادات نفتخر بها.<br /><em>ومواد تساعد الطفل يتعلّم.</em></h2><p>أضف صور الشهادات إلى مجلد <b>certifications images</b>، وصور المواد إلى مجلد <b>materials images</b>. ستظهر تلقائيًا عند تجهيز النسخة الثابتة.</p></div>
+            <div class="gallery-band"><div class="gallery-band-title"><span>01</span><div><h3>شهادات</h3><p>شهادات الطلاب والإنجازات التي نحتفل بها.</p></div></div><div class="gallery-grid" id="certificationGallery"></div></div>
+            <div class="gallery-band gallery-band-materials"><div class="gallery-band-title"><span>02</span><div><h3>أمثلة للمواد</h3><p>صور الشرح والأدوات والمواد التعليمية.</p></div></div><div class="gallery-grid" id="materialsGallery"></div></div>
+          </div>
+        </section>
+
+        <section class="final-cta-section" aria-labelledby="finalCtaTitle">
+          <div class="final-cta-root root-a" aria-hidden="true"></div><div class="final-cta-root root-b" aria-hidden="true"></div>
+          <div class="final-cta-content">
+            <div class="final-cta-orb" aria-hidden="true"><span>↗</span><i></i><i></i><i></i></div>
+            <p class="final-kicker">الخطوة القادمة تبدأ من هنا</p>
+            <h2 id="finalCtaTitle">كل رحلة كبيرة<br /><em>بتبدأ بخطوة صغيرة.</em></h2>
+            <p>احجز جلسة قصيرة، وخلي البداية تكون على قد احتياج طفلك.</p>
+            <a class="final-cta-button" href="booking.ar.html">احجز جلسة تجريبية مجانية <span>↗</span></a>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="footer-container">
+          <div class="footer-brand"><a class="footer-logo" href="index.ar.html" aria-label="Code Root Academy"><span class="footer-mark"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M31 13v38M31 28 14 18M31 35 51 21M31 44 18 53" fill="none" stroke="#094BDB" stroke-width="7" stroke-linecap="round"/><circle cx="13" cy="18" r="7" fill="#138C28"/><circle cx="52" cy="21" r="7" fill="#138C28"/><circle cx="17" cy="53" r="7" fill="#138C28"/><circle cx="31" cy="11" r="7" fill="#094BDB"/></svg></span><span><strong>code<span>root</span></strong><small>ACADEMY</small></span></a><p>تعليم تقني يبدأ من فهم الطفل، وينمو معه خطوة بخطوة.</p></div>
+          <div class="footer-contact footer-simple-contact"><h3>تواصل معنا</h3><div class="footer-contact-row"><a href="mailto:CodeRootKids@gmail.com" dir="ltr">CodeRootKids@gmail.com</a><a class="footer-facebook" href="https://www.facebook.com/CodeR00t/" target="_blank" rel="noopener noreferrer">Facebook ↗</a><a href="https://www.youtube.com/@CodeRootAcademy" target="_blank" rel="noopener noreferrer">YouTube ↗</a></div><a class="footer-phone" href="tel:+201553588585" dir="ltr">01553588585</a></div>
+        </div>
+        <div class="footer-bottom"><div><span>© <span id="year"></span> Code Root Academy</span><i></i><span>نبدأ من الجذر.</span></div><a class="back-to-top" href="#pageTop"><span>↑</span> العودة للأعلى</a></div>
+      </footer>
+
+      <div class="assistant-widget" id="assistantWidget">
+        <button class="assistant-launcher" id="assistantLauncher" type="button" aria-expanded="false" aria-controls="assistantPanel"><span class="assistant-spark">✦</span><span>اسأل Code Root</span></button>
+        <section class="assistant-panel" id="assistantPanel" aria-label="المساعد الذكي في Code Root" aria-hidden="true">
+          <header class="assistant-header"><div><span class="assistant-mini-mark">✦</span><p><strong>مساعد Code Root</strong><small>إجابات سريعة عن الأكاديمية</small></p></div><button id="assistantClose" type="button" aria-label="إغلاق المساعد">×</button></header>
+          <div class="assistant-messages" id="assistantMessages" aria-live="polite"><div class="assistant-message assistant-bot"><p>أهلًا، أنا مساعد Code Root. اسألني عن المسارات، الأسعار، الحجز أو الجروب المجاني.</p></div></div>
+          <div class="assistant-suggestions" aria-label="أسئلة مقترحة"><button type="button" data-assistant-prompt="ما هي المسارات؟">المسارات</button><button type="button" data-assistant-prompt="ما هي الأسعار؟">الأسعار</button><button type="button" data-assistant-prompt="كيف أحجز؟">الحجز</button><button type="button" data-assistant-prompt="ما هو الجروب المجاني؟">الجروب المجاني</button></div>
+          <form class="assistant-form" id="assistantForm"><label class="sr-only" for="assistantInput">اكتب سؤالك</label><input id="assistantInput" type="text" autocomplete="off" placeholder="اكتب سؤالك هنا..." /><button type="submit" aria-label="إرسال السؤال">↗</button></form>
+          <p class="assistant-note">لأي سؤال خاص بطفلك، تواصل معنا عبر واتساب.</p>
+        </section>
+      </div>
+
+      <div class="toast" id="toast" role="status" aria-live="polite">
+        <span class="toast-dot"></span><span id="toastText">سيُتاح هذا الجزء مع المرحلة التالية.</span>
+      </div>
+    </div>
+
+    <script src="JS/jquery.min.js"></script>
+    <script src="JS/gallery-data.js"></script>
+    <script src="JS/main.js" defer></script>
+  </body>
+</html>
